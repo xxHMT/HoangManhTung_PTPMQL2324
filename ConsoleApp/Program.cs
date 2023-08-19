@@ -8,8 +8,13 @@ internal class Program
     private static void Main(string[] args)
     {
         string str = "666";
-        int a = int.Parse(str);
-        System.Console.WriteLine("a = " + a);
+        int KQ;
+
+        // kiem tra xem chuyen doi co thanh cong hay khong
+        bool KiemTra = false;
+
+        KiemTra = int.TryParse(str,out(KQ));
+        System.Console.WriteLine("Ket qua = " + KQ);;
 
     }
 }
