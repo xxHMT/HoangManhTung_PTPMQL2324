@@ -8,10 +8,12 @@ internal class Program
     private static void Main(string[] args)
     {
         string str = "666";
-        // CHUYEN DOI KIEU DU LIEU SU DUNG LOP CONVERT
+       int KQ;
 
-        int x = Convert.ToInt32(str);
-        System.Console.WriteLine("x = " + x);
+        // kiem tra xem chuyen doi co thanh cong hay khong
+        bool KiemTra = false;
 
+        KiemTra = int.TryParse(str,out(KQ));
+        System.Console.WriteLine("Ket qua = " + KQ);
     }
 }
