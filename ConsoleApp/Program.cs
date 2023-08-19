@@ -14,7 +14,7 @@ internal class Program
         bool KiemTra = false;
 
         KiemTra = int.TryParse(str,out(KQ));
-        System.Console.WriteLine("Ket qua = " + KQ);;
+        System.Console.WriteLine("Ket qua = " + KQ);
 
     }
 }
