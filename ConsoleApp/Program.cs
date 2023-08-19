@@ -7,9 +7,13 @@ internal class Program
 {
     private static void Main(string[] args)
     {
-        for (int i = 1; i <= 5; i++)
+        int a = 2;
+
+        while ( a < 8) 
         {
-            System.Console.WriteLine("Vong lap thu {0}", i);
+            System.Console.WriteLine("Vong lap thu {0}", a);
+
+            a++;
         }
     }
 }
