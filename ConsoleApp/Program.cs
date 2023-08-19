@@ -7,10 +7,9 @@ internal class Program
 {
     private static void Main(string[] args)
     {
-                const string HoTen = "Hoang Manh Tung";
-        const int SoNamLamViec = 8;
-        Console.WriteLine("Nhan vien {0} - {1} nam kinh nghiem", HoTen, SoNamLamViec);
-        
+        string str = "666";
+        int a = int.Parse(str);
+        System.Console.WriteLine("a = " + a);
 
     }
 }
