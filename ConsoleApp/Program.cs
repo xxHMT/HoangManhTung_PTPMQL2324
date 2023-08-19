@@ -7,11 +7,20 @@ internal class Program
 {
     private static void Main(string[] args)
     {
-        string str = "666";
-        // CHUYEN DOI KIEU DU LIEU SU DUNG LOP CONVERT
+        int a, b;
 
-        int x = Convert.ToInt32(str);
-        System.Console.WriteLine("x = " + x);
+        System.Console.Write("a = ");// Nhap vao a;
 
+        a = Convert.ToInt32(Console.ReadLine()); // Chuyen doi kieu du lieu vua nhap sang int va gan cho a
+
+        System.Console.Write("b = ");
+
+        b = Convert.ToInt32(Console.ReadLine());
+
+        System.Console.WriteLine("{0} + {1} = {2}", a, b, a + b);
+        System.Console.WriteLine("{0} - {1} = {2}", a, b, a - b);
+        System.Console.WriteLine("{0} * {1} = {2}", a, b, a * b);
+        System.Console.WriteLine("{0} / {1} = {2}", a, b, a / b);
+        System.Console.WriteLine("{0} % {1} = {2}", a, b, a % b);
     }
 }
