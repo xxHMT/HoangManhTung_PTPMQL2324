@@ -16,6 +16,12 @@ namespace NewApp.Models
             Age = Convert.ToInt16(Console.ReadLine());
         }
 
+        public int GetYearOfBirth(int Age)
+        {
+            int yearOfBirth = 2023 - Age;
+            return yearOfBirth;
+        }
+
         public void Display()
         {
             System.Console.WriteLine("{0} - {1} - {2} tuoi", FullName, Address, Age);

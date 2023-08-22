@@ -4,15 +4,12 @@ public class Program
 {
     private static void Main(string[] args)
     {
-        SinhVien sv1 = new SinhVien();
+        Person ps = new Person();
 
-        sv1.FullName = "Gouzze";
-        sv1.Address = "Canada";
-        sv1.Age = 38;
-        sv1.PhoneNumber = 93233345;
+        string str = "Huynh Cong Hieu";
+        int a = 29;
     
-
-        sv1.Display();
+        Console.WriteLine("{0} sinh nam {1}",str , ps.GetYearOfBirth(a));
 
     }
 }
