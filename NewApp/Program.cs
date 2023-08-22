@@ -4,11 +4,11 @@ public class Program
 {
     private static void Main(string[] args)
     {
-        GiaiPT gpt = new GiaiPT();
 
-        gpt.a = 2;
-        gpt.b = 1;
+        Employee epl = new Employee();
 
-        gpt.GiaiPTB1();
+        epl.EnterData();
+        epl.Display();
+
     }
 }

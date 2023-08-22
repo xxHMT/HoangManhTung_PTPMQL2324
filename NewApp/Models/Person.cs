@@ -8,12 +8,9 @@ namespace NewApp.Models
 
         public void EnterData()
         {
-            System.Console.Write("Full name = ");
-            FullName = Console.ReadLine();
-            System.Console.Write("Address = ");
-            Address = Console.ReadLine();
-            System.Console.Write("Age = ");
-            Age = Convert.ToInt16(Console.ReadLine());
+            FullName = "Nguyen Van A";
+            Address = "Ha Noi";
+            Age = 21;
         }
 
         public int GetYearOfBirth(int Age)
