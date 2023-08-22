@@ -4,21 +4,15 @@ public class Program
 {
     private static void Main(string[] args)
     {
-        Person ps1 = new Person();
-        Person ps2 = new Person();
+        SinhVien sv1 = new SinhVien();
 
-        ps1.FullName = "Hoang Van D";
-        ps1.Address = "Phu Tho";
-        ps1.Age = 35;
-
-        ps2.FullName = "Nguyen Thao M";
-        ps2.Address = "Ha Noi";
-        ps2.Age = 18;
-
+        sv1.FullName = "Gouzze";
+        sv1.Address = "Canada";
+        sv1.Age = 38;
+        sv1.PhoneNumber = 93233345;
     
 
-        ps1.Display();
-        ps2.Display();
+        sv1.Display();
 
     }
 }
