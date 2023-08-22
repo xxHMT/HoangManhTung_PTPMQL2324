@@ -4,12 +4,11 @@ public class Program
 {
     private static void Main(string[] args)
     {
-        Person ps = new Person();
+        GiaiPT gpt = new GiaiPT();
 
-        string str = "Huynh Cong Hieu";
-        int a = 29;
-    
-        Console.WriteLine("{0} sinh nam {1}",str , ps.GetYearOfBirth(a));
+        gpt.a = 2;
+        gpt.b = 1;
 
+        gpt.GiaiPTB1();
     }
 }
