@@ -5,10 +5,10 @@ public class Program
 {
     private static void Main(string[] args)
     {
-        Fruit fruit = new Fruit();
+        Kethua kt = new Kethua();
 
-        fruit.EnterData();
-        fruit.Display();
+        kt.EnterData();
+        kt.Display();
 
 
         }
