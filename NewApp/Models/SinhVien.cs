@@ -17,7 +17,7 @@ namespace NewApp.Models
             System.Console.Write("Age = ");
             Age = Convert.ToInt16(Console.ReadLine());
             System.Console.Write("Phone number = ");
-            PhoneNumber = Convert.ToInt16(Console.ReadLine());
+            PhoneNumber = Convert.ToInt32(Console.ReadLine());
         }
 
         public void Display()
