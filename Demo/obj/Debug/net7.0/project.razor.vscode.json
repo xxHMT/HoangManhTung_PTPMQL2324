@@ -24070,6 +24070,11 @@
       "FilePath": "d:\\Tai lieu hoc tap\\NetCore\\PTPMQL_2324\\Demo\\Views\\Shared\\_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\Tai lieu hoc tap\\NetCore\\PTPMQL_2324\\Demo\\Views\\TinhLuong\\Index.cshtml",
+      "TargetPath": "Views\\TinhLuong\\Index.cshtml",
+      "FileKind": "mvc"
     }
   ]
 }
